@@ -1,0 +1,49 @@
+.remaining-data {
+  display: flex;
+  background-color: #ffffff;
+  width: 150px;
+  height: 70px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  top: -37px;
+  right: 8%;
+  border-radius: 10px;
+
+  @media screen and (max-width: 600px) {
+    top: unset;
+    bottom: -34px;
+    right: 25%;
+  }
+
+  &__text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--grayish-blue);
+    letter-spacing: 1px;
+  }
+
+  &__amount {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+  }
+
+  @media screen and (min-width: 600px) {
+    &::after {
+      content: "";
+      position: absolute;
+      right: -13px;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #fff;
+      clear: both;
+      bottom: -8px;
+      transform: rotate(226deg);
+    }
+  }
+}

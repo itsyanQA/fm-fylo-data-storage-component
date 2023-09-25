@@ -1,9 +1,7 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import DataStorage from "./components/DataStorage/DataStorage";
 
 function App() {
-  return <h1>hi</h1>;
+  return <DataStorage />;
 }
 
 export default App;
