@@ -8,8 +8,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ### The challenge
 
 Users should be able to:
